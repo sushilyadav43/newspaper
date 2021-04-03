@@ -1,0 +1,54 @@
+.small {
+  background-color: #003c8f;
+  height: 24px;
+}
+.font {
+  color: white;
+  font-size: 15px;
+}
+.site-header {
+  background-color: #e4e4e4;
+}
+.eng {
+  list-style-type: none;
+  background-color: #003c8f;
+  width: 95px;
+  text-align: center;
+  color: white;
+}
+.line {
+  border-top: 1px solid #43c6ac; 
+ margin: 4px;
+}
+.investment {
+  padding: 5px;
+}
+.u-img img {
+  transition: all .6s linear;
+}
+.figure img {
+  transition:  0.5s linear; 
+}
+.flag {
+  height: 54px;
+  width: 54px;
+}
+
+
+
+@media only screen and (max-width:768px) {
+  .other {
+     width: 90px !important;
+     align-self: center;
+  }
+}
+@media only screen and (max-width:600px) {
+  .taglist {
+    display: none;
+  }
+}
+@media only screen and (max-width:635px) {
+  .flag1 {
+    display: none;
+  }
+}
